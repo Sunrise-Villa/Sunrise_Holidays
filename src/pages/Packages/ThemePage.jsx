@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Sparkles, MapPin, ArrowRight, Heart, Users, Compass, Gem, Calendar } from 'lucide-react';
-const destShimlaImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_1.jpg";
-const destManaliImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_1.jpg";
-const destRohtangImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_1.jpg";
-const destKufriImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_2.jpg";
+const destShimlaImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_1.webp";
+const destManaliImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_1.webp";
+const destRohtangImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_1.webp";
+const destKufriImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_2.webp";
 const honeymoonHeroImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/honeymoon_hero.png";
 import { packagesData, getPackageThemes } from '../../data/packages';
 
@@ -376,7 +376,7 @@ function HoneymoonLandingPage({ meta, cards, activeTheme }) {
                 }}
               >
                 <div className="card-image-wrapper" style={{ height: '240px' }}>
-                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} loading="lazy" />
+                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} width="600" height="400" loading="lazy" />
                   <div className="card-badges">
                     <span className="badge badge-primary card-badge" style={{ padding: '6px 12px', fontSize: '0.75rem' }}>{card.badge}</span>
                   </div>
@@ -552,7 +552,7 @@ export default function ThemePage() {
                 }}
               >
                 <div className="card-image-wrapper" style={{ height: '240px' }}>
-                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} loading="lazy" />
+                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} width="600" height="400" loading="lazy" />
                   <div className="card-badges">
                     <span className="badge badge-primary card-badge" style={{ padding: '6px 12px', fontSize: '0.75rem' }}>{card.badge}</span>
                   </div>

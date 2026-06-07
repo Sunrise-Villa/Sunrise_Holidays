@@ -43,7 +43,7 @@ export default function Navbar() {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <Link to="/" className="nav-logo" aria-label="Sunrise Holidays Home" onClick={() => setIsMobileMenuOpen(false)}>
-          <img src={sunLogoImg} alt="Sunrise Holidays" className="nav-logo-img" />
+          <img src={sunLogoImg} alt="Sunrise Holidays" className="nav-logo-img" width="38" height="38" fetchpriority="high" />
           <span className="nav-brand-name">Sunrise Holidays</span>
         </Link>
 

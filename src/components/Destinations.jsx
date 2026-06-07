@@ -318,7 +318,7 @@ export default function Destinations() {
                 style={{ display: 'flex', flexDirection: 'column', color: 'inherit' }}
               >
                 <div className="card-image-wrapper">
-                  <img src={dest.image} alt={dest.title} className="card-image" loading="lazy" />
+                  <img src={dest.image} alt={dest.title} className="card-image" width="600" height="400" loading="lazy" />
                   <div className="card-badges">
                     <span className="badge badge-primary card-badge">{dest.badge}</span>
                     <span className="card-price">{dest.price}</span>

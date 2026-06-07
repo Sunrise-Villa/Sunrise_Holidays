@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero';
 import Services from '../../components/Services';
 import { ArrowRight } from 'lucide-react';
-const destShimlaImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_1.jpg";
-const destManaliImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_1.jpg";
-const destRohtangImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_1.jpg";
+const destShimlaImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_1.webp";
+const destManaliImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_1.webp";
+const destRohtangImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_1.webp";
 
 const categoryCards = [
   {
@@ -79,7 +79,7 @@ export default function Home() {
                   }}
                 >
                   <div className="card-image-wrapper" style={{ height: '250px' }}>
-                    <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} loading="lazy" />
+                    <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} width="600" height="400" loading="lazy" />
                     <div className="card-badges">
                       <span className="badge badge-primary card-badge" style={{ padding: '6px 12px', fontSize: '0.75rem' }}>{card.badge}</span>
                     </div>

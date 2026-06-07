@@ -41,7 +41,7 @@ export default function CardTemplate({
     >
       {/* 1. Header Media Block */}
       <div className="card-image-wrapper">
-        <img src={image} alt={title} className="card-image" loading="lazy" />
+        <img src={image} alt={title} className="card-image" width="600" height="400" loading="lazy" />
         <div className="card-badges">
           {/* Solid Sunrise Orange Badge (High-Contrast) */}
           <span className="badge badge-primary card-badge">{badge}</span>
