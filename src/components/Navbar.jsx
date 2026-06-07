@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Menu, X, ChevronDown, Sparkles } from 'lucide-react';
 import { Link, NavLink } from 'react-router-dom';
-import sunLogoImg from '../assets/sun_logo.png';
+const sunLogoImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/sun_logo.png";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);

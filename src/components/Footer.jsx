@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Phone, Camera, Share2, ChevronDown, ChevronUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import logoImg from '../assets/logo.png';
+const logoImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/logo.png";
 
 export default function Footer() {
   const [openSection, setOpenSection] = useState({

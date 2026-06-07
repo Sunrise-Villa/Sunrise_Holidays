@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Clock, Check, X, ArrowLeft, Send, Sparkles, ShieldCheck, MapPin, PhoneCall } from 'lucide-react';
-import destShimlaImg from '../../../assets/Shimla_6.jpg';
+const destShimlaImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_6.jpg";
 import RouteMap from '../../../components/RouteMap';
 
 const ROUTE_MAP_DATA = {

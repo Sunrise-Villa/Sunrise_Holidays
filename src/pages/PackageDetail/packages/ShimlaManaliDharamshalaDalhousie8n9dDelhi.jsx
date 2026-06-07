@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Clock, Check, X, ArrowLeft, Send, Sparkles, ShieldCheck, MapPin, PhoneCall } from 'lucide-react';
-import destKufriImg from '../../../assets/manali_1.jpg';
-import destShimlaImg from '../../../assets/manali_2.jpg';
-import destManaliImg from '../../../assets/manali_3.jpg';
-import destRohtangImg from '../../../assets/Himachal_2.jpg';
+const destKufriImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_1.jpg";
+const destShimlaImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_2.jpg";
+const destManaliImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_3.jpg";
+const destRohtangImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_2.jpg";
 import RouteMap from '../../../components/RouteMap';
 
 const imageMap = {

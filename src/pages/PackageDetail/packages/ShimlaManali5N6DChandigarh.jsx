@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Clock, Check, X, ArrowLeft, Send, Sparkles, ShieldCheck, MapPin, PhoneCall } from 'lucide-react';
-import destKufriImg from '../../../assets/manali_2.jpg';
+const destKufriImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_2.jpg";
 import RouteMap from '../../../components/RouteMap';
 
 const ROUTE_MAP_DATA = {

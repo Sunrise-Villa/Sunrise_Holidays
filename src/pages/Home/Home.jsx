@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero';
 import Services from '../../components/Services';
 import { ArrowRight } from 'lucide-react';
-import destShimlaImg from '../../assets/Shimla_1.jpg';
-import destManaliImg from '../../assets/manali_1.jpg';
-import destRohtangImg from '../../assets/Himachal_1.jpg';
+const destShimlaImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_1.jpg";
+const destManaliImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_1.jpg";
+const destRohtangImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_1.jpg";
 
 const categoryCards = [
   {

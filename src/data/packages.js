@@ -1,20 +1,20 @@
-import shimla1 from '../assets/Shimla_1.jpg';
-import shimla2 from '../assets/Shimla_2.jpg';
-import shimla3 from '../assets/Shimla_3.jpg';
-import shimla4 from '../assets/Shimla_4.jpg';
-import shimla5 from '../assets/Shimla_5.jpg';
-import shimla6 from '../assets/Shimla_6.jpg';
+const shimla1 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_1.jpg";
+const shimla2 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_2.jpg";
+const shimla3 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_3.jpg";
+const shimla4 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_4.jpg";
+const shimla5 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_5.jpg";
+const shimla6 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Shimla_6.jpg";
 
-import manali1 from '../assets/manali_1.jpg';
-import manali2 from '../assets/manali_2.jpg';
-import manali3 from '../assets/manali_3.jpg';
-import manali4 from '../assets/manali_4.jpg';
-import manali6 from '../assets/manali_6.jpg';
+const manali1 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_1.jpg";
+const manali2 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_2.jpg";
+const manali3 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_3.jpg";
+const manali4 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_4.jpg";
+const manali6 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/manali_6.jpg";
 
-import himachal1 from '../assets/Himachal_1.jpg';
-import himachal2 from '../assets/Himachal_2.jpg';
-import himachal3 from '../assets/Himachal_3.jpg';
-import himachal4 from '../assets/Himachal_4.jpg';
+const himachal1 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_1.jpg";
+const himachal2 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_2.jpg";
+const himachal3 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_3.jpg";
+const himachal4 = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/Himachal_4.jpg";
 
 export const packagesData = [
   {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkles } from 'lucide-react';
-import heroBgImg from '../assets/hero_bg.png';
+const heroBgImg = "https://cdn.jsdelivr.net/gh/Sunrise-Villa/Sunrise_Holidays@main/src/assets/hero_bg.png";
 
 export default function Hero() {
   return (
