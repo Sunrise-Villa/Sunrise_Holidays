@@ -46,6 +46,7 @@ export default function RouteMap({ routeData }) {
           title={`Route Map - ${routeData.title}`}
           style={{ width: '100%', height: '100%', border: 'none', display: 'block' }}
           sandbox="allow-scripts allow-same-origin"
+          loading="lazy"
         />
       </div>
       <p style={{

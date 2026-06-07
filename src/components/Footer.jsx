@@ -38,7 +38,7 @@ export default function Footer() {
         {/* Brand Col */}
         <div className="footer-brand">
           <Link to="/" className="nav-logo footer-logo">
-            <img src={logoImg} alt="Sunrise Holidays" className="footer-logo-img" />
+            <img src={logoImg} alt="Sunrise Holidays" className="footer-logo-img" loading="lazy" />
           </Link>
           <p className="footer-tagline">
             Crafting customized, budget-friendly trips to Shimla & Manali with local expertise and trusted services since 2011.

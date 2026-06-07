@@ -376,7 +376,7 @@ function HoneymoonLandingPage({ meta, cards, activeTheme }) {
                 }}
               >
                 <div className="card-image-wrapper" style={{ height: '240px' }}>
-                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} />
+                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} loading="lazy" />
                   <div className="card-badges">
                     <span className="badge badge-primary card-badge" style={{ padding: '6px 12px', fontSize: '0.75rem' }}>{card.badge}</span>
                   </div>
@@ -552,7 +552,7 @@ export default function ThemePage() {
                 }}
               >
                 <div className="card-image-wrapper" style={{ height: '240px' }}>
-                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} />
+                  <img src={card.image} alt={card.title} className="card-image" style={{ height: '100%', width: '100%', objectFit: 'cover' }} loading="lazy" />
                   <div className="card-badges">
                     <span className="badge badge-primary card-badge" style={{ padding: '6px 12px', fontSize: '0.75rem' }}>{card.badge}</span>
                   </div>
